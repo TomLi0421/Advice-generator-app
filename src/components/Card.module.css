@@ -1,0 +1,41 @@
+.card__dark_graylish_blue {
+  background-color: var(--dark-graylish-blue);
+}
+
+.advice_title__neon_green {
+  color: var(--neon-green);
+  letter-spacing: 0.6em;
+}
+
+.quote__color {
+  color: var(--light-cyan);
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--graylish-blue);
+}
+
+.line:before,
+.line:after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid var(--graylish-blue);
+}
+
+.line:before {
+  margin-right: 0.5em;
+}
+
+.line:after {
+  margin-left: 0.5em;
+}
+
+.line__text {
+  color: var(--light-cyan);
+  border: 3px solid;
+  height: 1em;
+  border-radius: 30%;
+}
